@@ -1,0 +1,4 @@
+/* Reset globals - let the original CSS handle styling */
+* {
+  box-sizing: border-box;
+}
