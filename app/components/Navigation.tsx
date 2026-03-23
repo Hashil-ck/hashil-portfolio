@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Navigation() {
@@ -24,7 +25,9 @@ export default function Navigation() {
       {/* Menu frame */}
       <div className={`mil-menu-frame${menuOpen ? ' mil-active' : ''}`}>
         <div className="mil-frame-top">
-          <a href="#top" className="mil-logo" onClick={() => scrollTo('#top')}>H.</a>
+          <a href="#top" className="mil-logo" onClick={() => scrollTo('#top')} style={{ display: 'flex', alignItems: 'center' }}>
+            <Image src="/img/profile icon.png" alt="Logo" width={45} height={45} style={{ objectFit: 'contain' }} priority />
+          </a>
           <div className={`mil-menu-btn${menuOpen ? ' mil-active' : ''}`} onClick={toggleMenu}>
             <span></span>
           </div>
@@ -112,7 +115,9 @@ export default function Navigation() {
       {/* frame */}
       <div className="mil-frame">
         <div className="mil-frame-top">
-          <a href="#top" className="mil-logo" onClick={(e) => { e.preventDefault(); scrollTo('#top'); }}>H.</a>
+          <a href="#top" className="mil-logo" onClick={(e) => { e.preventDefault(); scrollTo('#top'); }} style={{ display: 'flex', alignItems: 'center' }}>
+            <Image src="/img/profile icon.png" alt="Logo" width={45} height={45} style={{ objectFit: 'contain' }} priority />
+          </a>
           <div className={`mil-menu-btn${menuOpen ? ' mil-active' : ''}`} onClick={toggleMenu}>
             <span></span>
           </div>
