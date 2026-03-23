@@ -593,10 +593,10 @@ button
   background-color: rgb(255, 152, 0);
   color: rgb(0, 0, 0);
   border-radius: 70px;
-  padding: 0 15px 0 50px;
+  padding: 0 15px 0 35px;
   height: 70px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
