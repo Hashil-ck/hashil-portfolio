@@ -104,7 +104,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-md-8 col-lg-6">
                       <p className="mil-light-soft mil-mb-60">
-                        Hi, I&apos;m <strong style={{ color: 'rgba(255,152,0,1)' }}>Mohammed Hashil</strong> — a Full Stack Developer with 2+ years of experience crafting scalable web applications. Proficient in the MERN stack, Next.js, NestJS, and modern backend patterns.
+                        Hi, I&apos;m <strong style={{ color: 'rgba(255,152,0,1)' }}>Mohammed Hashil</strong> — a Software Engineer
                       </p>
                     </div>
                   </div>
@@ -153,14 +153,14 @@ export default function Home() {
             <div className="container mil-p-120-30">
               <div className="row justify-content-between align-items-center">
                 <div className="col-lg-6 col-xl-5">
-                  <div className="mil-mb-90">
-                    <h2 className="mil-up mil-mb-60">
-                      About <br />Mohammed <span className="mil-thin">Hashil</span>
+                  <div className="">
+                    <h2 className="mil-up mil-mb-20">
+                      About
                     </h2>
-                    <p className="mil-up mil-mb-30">
-                      I&apos;m a Full Stack Developer with 2+ years of professional experience building enterprise-grade web applications. Currently working as a <strong>Software Engineer at Bluecast Technologies</strong>, I specialize in the MERN stack and modern full-stack patterns.
+                    <p className="mil-up mil-mb-30" style={{ color: '#111', fontSize: '18px', lineHeight: '1.8', fontWeight: 400, letterSpacing: '-0.2px' }}>
+                      I&apos;m a Full Stack Developer with 2+ years of professional experience building enterprise-grade web applications. Currently working as a <strong>Software Engineer</strong>, I specialize in the MERN stack and modern full-stack patterns.
                     </p>
-                    <p className="mil-up mil-mb-60">
+                    <p className="mil-up mil-mb-60" style={{ color: '#111', fontSize: '18px', lineHeight: '1.8', fontWeight: 400, letterSpacing: '-0.2px' }}>
                       I&apos;m proficient in <strong>Next.js, React.js, Node.js, NestJS</strong>, and <strong>Prisma ORM</strong>, with hands-on experience in microservices architecture, gRPC, and real-time applications using WebSockets. I enjoy bridging the gap between clean UI and performant backends.
                     </p>
 
@@ -175,7 +175,7 @@ export default function Home() {
                           <p style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', color: '#888' }}>Years Experience</p>
                         </div>
                         <div>
-                          <h3 style={{ color: 'rgba(255,152,0,1)', marginBottom: '4px' }}>6+</h3>
+                          <h3 style={{ color: 'rgba(255,152,0,1)', marginBottom: '4px' }}>12+</h3>
                           <p style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', color: '#888' }}>Projects Shipped</p>
                         </div>
                         <div>
@@ -218,7 +218,6 @@ export default function Home() {
                 {[
                   { icon: 'fas fa-envelope', label: 'Email', value: 'hashilhashy007@gmail.com', href: 'mailto:hashilhashy007@gmail.com' },
                   { icon: 'fas fa-phone', label: 'Phone', value: '+91 9946734217', href: 'tel:+919946734217' },
-                  { icon: 'fas fa-map-marker-alt', label: 'Location', value: 'Malappuram, Kerala', href: '#.' },
                   { icon: 'fab fa-linkedin', label: 'LinkedIn', value: 'Hashil-ck', href: 'https://www.linkedin.com/in/hashil-ck/' },
                   { icon: 'fab fa-github', label: 'GitHub', value: 'Hashil-ck', href: 'https://github.com/Hashil-ck' },
                 ].map((item) => (
