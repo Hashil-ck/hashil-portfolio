@@ -219,6 +219,7 @@ export default function Home() {
                   { icon: 'fas fa-envelope', label: 'Email', value: 'hashilhashy007@gmail.com', href: 'mailto:hashilhashy007@gmail.com' },
                   { icon: 'fas fa-phone', label: 'Phone', value: '+91 9946734217', href: 'tel:+919946734217' },
                   { icon: 'fas fa-map-marker-alt', label: 'Location', value: 'Malappuram, Kerala', href: '#.' },
+                  { icon: 'fab fa-linkedin', label: 'LinkedIn', value: 'Hashil-ck', href: 'https://www.linkedin.com/in/hashil-ck/' },
                   { icon: 'fab fa-github', label: 'GitHub', value: 'Hashil-ck', href: 'https://github.com/Hashil-ck' },
                 ].map((item) => (
                   <div key={item.label} className="col-sm-6 col-lg-3" style={{ marginBottom: '20px' }}>
