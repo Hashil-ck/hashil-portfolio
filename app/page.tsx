@@ -200,12 +200,14 @@ export default function Home() {
                     <div className="mil-lines-place"></div>
                     <div className="mil-up mil-img-frame" style={{ paddingBottom: '130%' }}>
                       <Image
-                        src="/img/photo/1.jpg"
+                        src="/img/photo/about_portrait.png"
                         alt="Mohammed Hashil - Full Stack Developer"
                         className="mil-scale"
                         data-value-1="1"
                         data-value-2="1.2"
                         fill
+                        quality={100}
+                        unoptimized
                         style={{ objectFit: 'cover' }}
                       />
                     </div>
@@ -268,9 +270,7 @@ export default function Home() {
                   </div>
 
                   <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
-                    <span className="mil-text-image">
-                      <Image src="/img/photo/2.jpg" alt="coding" width={60} height={60} />
-                    </span>
+
                     <h2 className="mil-h1 mil-muted mil-center">Technical <span className="mil-thin">Skills</span></h2>
                   </div>
                   <div className="mil-complex-text justify-content-center mil-up">
@@ -320,11 +320,11 @@ export default function Home() {
                   <h3 className="mil-up">Featured Projects:</h3>
                 </div>
                 <div className="col-lg-5 mil-mb-30">
-                  <div className="mil-adaptive-right mil-up">
+                  {/* <div className="mil-adaptive-right mil-up">
                     <a href="https://github.com/Hashil-ck" target="_blank" className="mil-link mil-dark mil-arrow-place">
                       <span>View GitHub</span>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
