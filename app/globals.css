@@ -2,3 +2,25 @@
 * {
   box-sizing: border-box;
 }
+
+/* Override Ruizarch template for modal inputs */
+.custom-contact-input::-webkit-input-placeholder {
+  color: #a1a1aa !important;
+  text-transform: none !important;
+  opacity: 1 !important;
+}
+.custom-contact-input::-moz-placeholder {
+  color: #a1a1aa !important;
+  text-transform: none !important;
+  opacity: 1 !important;
+}
+.custom-contact-input:-ms-input-placeholder {
+  color: #a1a1aa !important;
+  text-transform: none !important;
+  opacity: 1 !important;
+}
+.custom-contact-input::placeholder {
+  color: #a1a1aa !important;
+  text-transform: none !important;
+  opacity: 1 !important;
+}
